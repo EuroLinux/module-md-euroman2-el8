@@ -1,1 +1,1 @@
-# module-md-euroman2-el8
+# Moudular metadata for EuroLinux EuroMan 2 
