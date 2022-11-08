@@ -44,5 +44,5 @@ data:
       - test-package
   artifacts:
     rpms:
-    - test-package-0:6.9.420.module+el9.0.0+6969+aaaaa.noarch
+    - test-package-0:6.9-420.module+el9.0.0+6969+aaaaa.noarch
 ...
