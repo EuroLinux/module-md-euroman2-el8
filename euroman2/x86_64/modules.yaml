@@ -1,0 +1,48 @@
+---
+document: modulemd
+version: 2
+data:
+  name: test-module
+  stream: 1.0
+  version: 906969420420 
+  context: 69694200
+  arch: noarch
+  license:
+    module:
+    - MIT
+  summary: Test module
+  description: Current createrepo_c requires not empty module index. This 
+    not existing module is fix for broken automatic gaia pipelines (broken because createrepo_c is so smart
+    that Elon Tusk want it) and will be removed.
+  dependencies:
+  - buildrequires:
+      platform:
+      - el9
+    requires:
+      platform:
+      - el9
+  components:
+    rpms:
+      test-package:
+        rationale: Not existing component of this module.
+        ref: abcdeabcdeabceabcdeabcdeabcdeabcdeabcdea
+  api:
+    rpms:
+    - test-rpm-package
+  buildopts:
+    rpms:
+      macros: '%_with_ignore_tests 1
+               %_with_smile_if_you_read_that 1
+        '
+  references:
+    community: https://example.com
+    documentation: https://example.com
+    tracker: https://example.com
+  profiles:
+    default:
+      rpms:
+      - test-package
+  artifacts:
+    rpms:
+    - test-package-0:6.9.420.module+el9.0.0+6969+aaaaa.noarch
+...

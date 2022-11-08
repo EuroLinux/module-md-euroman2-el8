@@ -1,1 +1,1 @@
-# Moudular metadata for EuroLinux EuroMan 2 
+# Modular metadata for EuroLinux EuroMan 2 
