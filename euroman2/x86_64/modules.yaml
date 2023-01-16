@@ -544,8 +544,8 @@ data:
     - EuroMan-0:6.11.4-2.el8sat.noarch
     - EuroMan-cli-0:6.11.4-2.el8sat.noarch
     - EuroMan-common-0:6.11.4-2.el8sat.noarch
-    - satellite-installer-0:6.11.0.7-1.el8sat.noarch
-    - satellite-maintain-0:0.0.1-1.el8sat.noarch
+    - EuroMan-installer-0:6.11.0.7-1.el8sat.noarch
+    - EuroMan-maintain-0:0.0.1-1.el8sat.noarch
     - yggdrasil-worker-forwarder-0:0.0.1-1.el8sat.x86_64
   context: 5069aad1
   dependencies:
